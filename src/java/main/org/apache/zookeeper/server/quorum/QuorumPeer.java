@@ -419,8 +419,9 @@ public class QuorumPeer extends ZooKeeperThread implements QuorumStats.Provider 
      */
 
     //last committed quorum verifier
+    //上次提交的仲裁验证器
     public QuorumVerifier quorumVerifier;
-    
+    //上次提议的仲裁验证器
     //last proposed quorum verifier
     public QuorumVerifier lastSeenQuorumVerifier = null;
 
